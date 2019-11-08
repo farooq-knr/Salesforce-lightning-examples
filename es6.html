@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <script>
+            /*
+                var fruits = ['Apple', 'Mango', 'Banana'];
+                console.log('==========='+'Addes to last');
+                fruits.push('Orange');
+                
+                fruits.forEach(function(item, index){
+                    console.log(item, index);
+                });
+                console.log('==========='+'Removes to last');
+                fruits.pop();
+                fruits.forEach(function(item, index){
+                    console.log(item, index);
+                });
+                console.log('==========='+'Removes to first');
+                fruits.shift();
+                fruits.forEach(function(item, index){
+                    console.log(item, index);
+                });
+                console.log('==========='+'Add at front');
+                fruits.unshift('Strawberry');
+                fruits.forEach(function(item, index){
+                    console.log(item, index);
+                });
+                console.log('==========='+'removes at given location');
+                fruits.splice(0,1);
+                fruits.forEach((item, index) => {
+                    console.log(item, index);
+                });
+                var newArray = Array.of(5,6,7);
+                console.log(Array.isArray(newArray));
+                //concatinate two arrays
+                let array1 = ['5','6','7'];
+                let array2 = ['a','b','c'];
+                console.log(array1.concat(array2));
+                console.log(array1.toString());
+
+                var someArray =["4","2","6","1"];
+
+                var sortUp= function(prop){
+                    return function(a,b){
+                        if(a[prop] > b[prop]){
+                            return 1;
+                        }
+                        if(a[prop] < b[prop]){
+                            return -1;
+                        }
+                        else return 0;
+                    }
+
+                }
+                console.log(sortUp(someArray));
+                */
+                var person ={};
+                console.log(typeof person);
+                person['name'] = 'farooq';
+                person['Age'] = 25;
+                person['city'] = 'Karimnagar';
+                console.log(person);
+                var newPerson= person;
+                console.log(newPerson);
+                var newPerson1 = Object.assign({},person);
+                Object.create();
+                console.log(newPerson1);
+                setTimeout(function(){
+                    console.log('hello');
+                },1000);
+               
+        </script>
+    </head>
+</html>
